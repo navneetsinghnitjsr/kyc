@@ -13,7 +13,6 @@ import Menus from './Component/Menus';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Allcourses from './Component/Allcourses';
 
-//01:07 min
 function App() { 
   const btnHandle = () => {
      toast.success("Success",{position:"bottom-center"});
